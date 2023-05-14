@@ -1,0 +1,38 @@
+@font-face {
+    font-family: IEL;
+    src: url('../fonts/Inter-ExtraLight.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: IR;
+    src: url('../fonts/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: ISB;
+    src: url('../fonts/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: IB;
+    src: url('../fonts/Inter-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: IBk;
+    src: url('../fonts/Inter-Black.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: PDR;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: PDB;
+    src: url('../fonts/PlayfairDisplay-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: PDBk;
+    src: url('../fonts/PlayfairDisplay-Black.ttf');
+    font-weight: 900;
+}

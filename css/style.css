@@ -1,0 +1,251 @@
+@import url('fonts.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: IR;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 100px 90px;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 105px;
+}
+
+.header-nav-list li:last-child {
+    margin-left: -40px;
+}
+
+.header-nav-list a {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F2E2E;
+    transition: 0.3s ease;
+}
+
+.header-nav-list a:hover,
+.projects-nav-list a:hover,
+.active {
+    font-weight: 700;
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 739px;
+}
+
+.header-content-text {
+    position: absolute;
+    left: 0;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    padding: 138px 166px 139px 100px;
+    background: linear-gradient(91.1deg, rgba(244, 246, 245, 0.9) -7.89%, rgba(255, 255, 255, 0.9) 132.55%);
+    z-index: 1;
+}
+
+.header-content-text h2 {
+    font-family: PDBk;
+    font-size: 51px;
+    line-height: 60px;
+    color: #2F2E2E;
+    max-width: 425px;
+}
+
+.header-content-text p {
+    font-family: IEL;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2F2E2E;
+    max-width: 436px;
+    padding-top: 10px;
+}
+
+.header-content-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main-title {
+    font-family: PDB;
+    font-size: 51px;
+    line-height: 60px;
+    text-align: center;
+    color: #2F2E2E;
+
+}
+
+.services {
+    background: rgba(37, 77, 77, 0.2);
+    padding: 16px 100px 65px;
+    margin-bottom: 75px;
+}
+
+.services .main-title {
+    padding-bottom: 45px;
+}
+
+.services-content {
+    display: flex;
+    gap: 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.services-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-content-item img {
+    width: 103px;
+    height: 103px;
+}
+
+.services-content-item span {
+    font-family: PDBk;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #2F2E2E;
+}
+
+.services-content-item p {
+    font-family: PDR;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2F2E2E;
+    max-width: 158px;
+}
+
+.about {
+    margin-bottom: 95px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+}
+
+.about-content-left {
+    width: 735px;
+    height: 570px;
+}
+
+.about-content-right .main-title {
+    padding-bottom: 27px;
+    text-align: left;
+}
+
+.about-content-right p {
+    font-family: PDR;
+    font-size: 31px;
+    line-height: 46px;
+    color: #2F2E2E;
+    padding-bottom: 36px;
+}
+
+.about-content-right a {
+    font-family: ISB;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F2E2E;
+}
+
+.projects-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-bottom: 45px;
+}
+
+.projects-nav-list {
+    display: flex;
+    gap: 110px;
+}
+
+.projects-nav-list a {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F2E2E;
+    transition: 0.3s ease;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 85px;
+    margin-bottom: 90px;
+}
+
+.project-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-content-item span {
+    font-family: PDR;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2F2E2E;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 78px 100px;
+}
+
+.testimonial-content-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.testimonial-content-item span {
+    font-family: PDB;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2F2E2E;
+}
+
+.testimonial-content-item p{
+    
+}
